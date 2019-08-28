@@ -46,7 +46,7 @@ library(tidyr)
 
 sessionInfo()
 
-setwd("C:/Users/amnia/Dropbox/IPA_Paper/WGCNA")
+
 
 exprsFile <- "exprsData.txt"
 
@@ -469,5 +469,5 @@ mp=modulePreservation()
 
 # codetime<-Sys.Date()
 # writeLines(capture.output(sessionInfo()),"sessionInfo.txt")
-save.image(file ="wgcna_Anna_C57_Fe_alltime.RData")
+
 
