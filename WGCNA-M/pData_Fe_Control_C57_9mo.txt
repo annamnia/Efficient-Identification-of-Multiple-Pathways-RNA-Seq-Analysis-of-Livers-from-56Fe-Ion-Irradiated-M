@@ -1,0 +1,7 @@
+Sample	Strain	Treatment	Time
+H16	C57	Control	9mo
+H17	C57	Control	9mo
+H18	C57	Control	9mo
+K16	C57	Fe	9mo
+K17	C57	Fe	9mo
+K18	C57	Fe	9mo
