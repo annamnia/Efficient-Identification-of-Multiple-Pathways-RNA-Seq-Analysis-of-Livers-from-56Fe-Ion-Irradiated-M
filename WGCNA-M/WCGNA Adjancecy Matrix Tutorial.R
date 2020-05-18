@@ -336,10 +336,10 @@ write.csv(C57_Fe_alltime_filtered,file="all_FDR_threshold.csv")
 
 
 #Make a DESeq normalized file from raw data files
-exprsFile <- "raw_exprsData_Control_C57.txt"
+exprsFile <- "raw_exprsData_C57.txt"
 exprs <- as.matrix(read.table(exprsFile, row.names = 1, header=TRUE, sep="\t", as.is=TRUE))
 
-pDataFile<- "pData_Fe_Control_C57.txt"
+pDataFile<- "pData_Fe_C57.txt"
 pData <-read.table(pDataFile, row.names = 1, header=TRUE, sep="\t", as.is=TRUE)
 all(rownames(pData)==colnames(exprs))
 # # sapply(pData,class)
