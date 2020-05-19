@@ -23,7 +23,7 @@ path<-setwd("/Users/WGCNA_M/1_BMC_Bioinformatics_Methodology/Scripts/Modularity 
 #change the working directory path to the location where all of the example files are located. 
 p.threshold <- 0.05
 
-exprsFile <- "raw_exprsData_Control_C57_1mo.txt"
+exprsFile <- "raw_exprsData_C57_1mo.txt"
 exprs <- as.matrix(read.table(exprsFile, row.names = 1, header=TRUE, sep="\t", as.is=TRUE))
 pDataFile<- "pData_Fe_Control_C57_1mo.txt"
 pData <-read.table(pDataFile, row.names = 1, header=TRUE, sep="\t", as.is=TRUE)
